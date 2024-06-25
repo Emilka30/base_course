@@ -1,7 +1,0 @@
-a = int(input('введите первый член'))
-b = int(input('введите знаменатель'))
-c = int(input('введите количество членов'))
-
-print()
-for i in range(c):
-    print(a*(b**i),end='')
